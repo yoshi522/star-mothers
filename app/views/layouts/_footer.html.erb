@@ -1,0 +1,61 @@
+
+<footer>
+  <div id="footermenu">
+    <ul>
+      <li><%= link_to 'ホーム', root_path %></li>
+      <li><%= link_to 'すたーまざーずとは', '/info' %></li>
+    </ul>
+    <ul>
+      <li><%= link_to '活動内容', '/activity' %></li>
+      <li><%= link_to 'コーチング', '/coaching' %></li>
+    </ul>
+    <ul>
+      <li><%= link_to 'マネーサポート', '/money_support' %></li>
+      <li><%= link_to 'メンバー募集', '/member' %></li>
+    </ul>
+    <ul>
+      <li>
+        <a class="twitter-share-button"
+           data-text="すたーまざーず" data-url="http://star-mothers.com" data-related="star_mothers"
+           data-via="star_mothers"
+           href="https://twitter.com/share" data-dnt="true">Tweet</a>
+      </li>
+      <li style="float: left;">
+        <div class="fb-like" data-href="https://www.facebook.com/%E3%81%99%E3%81%9F%E3%83%BC%E3%81%BE%E3%81%96%E3%83%BC%E3%81%9A-1572001599760897/" data-layout="standard" data-action="like" data-size="small" data-show-faces="true" data-share="true"></div>
+      </li>
+    </ul>
+  </div>
+
+  <!--/footermenu-->
+
+  <div id="copyright">
+    <small>Copyright&copy; <a href="index.html">すたーまざーず</a> All Rights Reserved.</small>
+  </div>
+</footer>
+
+<div id="fb-root"></div>
+<script type="text/javascript">
+  if (OCwindowWidth() <= 480) {
+    <!--メニューの開閉処理条件設定　480px以下-->
+    open_close("menubar_hdr", "menubar-s");
+    <!--スマホ用更新情報　480px以下-->
+    open_close("newinfo_hdr", "newinfo");
+  }
+  <!-- [head]内や、[body]の終了直前などに配置 -->
+  window.twttr=(function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],t=window.twttr||{};if(d.getElementById(id))return;js=d.createElement(s);js.id=id;js.src="https://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);t._e=[];t.ready=function(f){t._e.push(f);};return t;}(document,"script","twitter-wjs"));
+  //	Facebook
+  window.fbAsyncInit = function() {
+    FB.init({
+      appId      : '1787535271524033',
+      xfbml      : true,
+      version    : 'v2.7'
+    });
+  };
+  (function(d, s, id) {
+    var js, fjs = d.getElementsByTagName(s)[0];
+    if (d.getElementById(id)) return;
+    js = d.createElement(s); js.id = id;
+    js.src = "//connect.facebook.net/ja_JP/sdk.js#xfbml=1&version=v2.7&appId=1787535271524033";
+    fjs.parentNode.insertBefore(js, fjs);
+  }(document, 'script', 'facebook-jssdk'));
+</script>
