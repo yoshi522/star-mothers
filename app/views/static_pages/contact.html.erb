@@ -1,5 +1,21 @@
 <section>
   <h2>お問い合わせ</h2>
-  <p>お問い合わせは <a href="mailto:info@star-mothers.com">メール</a>で承っております。</p>
-  <p>mail: info[at]star-mothers.com</p>
+  <table class="ta1">
+    <tr>
+      <th colspan="2" class="tamidashi">※マークは入力必須です</th>
+    </tr>
+    <tr>
+      <th>お名前※</th>
+      <td><input type="text" name="お名前" size="30" class="ws" id="contact_name"></td>
+    </tr>
+    <tr>
+      <th>メールアドレス※</th>
+      <td><input type="text" name="メールアドレス" size="30" class="ws" id="contact_email"></td>
+    </tr>
+    <tr>
+      <th>お問い合わせ詳細※</th>
+      <td><textarea name="お問い合わせ詳細" cols="30" rows="10" class="wl" id="contact_content"></textarea></td>
+    </tr>
+  </table>
+  <button onclick="sendContact()" class="pull-right" style="cursor: pointer;">送信する</button>
 </section>
