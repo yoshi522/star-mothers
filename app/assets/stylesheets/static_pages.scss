@@ -56,9 +56,9 @@ header #inner {
   height: 130px;	/*高さ*/
   margin: 0 auto;
   position: relative;
-  background: #fff image_url('header_bg.jpg') no-repeat 300px center;	/*背景色、背景画像の読み込み（古いブラウザ用）*/
-  background: -webkit-linear-gradient(#d5edff, rgba(255,255,255,0) 50%), #fff image_url('header_bg.jpg') no-repeat 300px center/500px;	/*グラデーション、背景色、背景画像の読み込み（リピートなし、左から300pxの場所に配置、上下中央、画像幅500px）*/
-  background: linear-gradient(#d5edff, rgba(255,255,255,0) 50%), #fff image_url('header_bg.jpg') no-repeat 300px center/500px;/*同上*/
+  //background: #fff image_url('header_bg.jpg') no-repeat 300px center;	/*背景色、背景画像の読み込み（古いブラウザ用）*/
+  //background: -webkit-linear-gradient(#d5edff, rgba(255,255,255,0) 50%), #fff image_url('header_bg.jpg') no-repeat 300px center/500px;	/*グラデーション、背景色、背景画像の読み込み（リピートなし、左から300pxの場所に配置、上下中央、画像幅500px）*/
+  //background: linear-gradient(#d5edff, rgba(255,255,255,0) 50%), #fff image_url('header_bg.jpg') no-repeat 300px center/500px;/*同上*/
 }
 /*ロゴ画像*/
 header #logo {
