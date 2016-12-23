@@ -423,7 +423,8 @@ ul#fsize li#la a:hover {
 }
 /*「スタッフ募集中」の背景設定*/
 #sub .box2.recruit {
-  background: #edf5fa image-url('recruit_img.png') no-repeat right top;
+  background: #edf5fa image-url('itousan.png') no-repeat right top;
+  background-size: 100px;
 }
 
 /*フッター設定
